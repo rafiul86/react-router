@@ -13,8 +13,10 @@ const CountryDetails = () => {
         <div className = 'country-details'>
             <img src={country.flag} alt=""/>
             <h1>{country.name}</h1>
-            <p>{country.capital}</p>
+            <p>Capital :{country.capital}</p>
             <p>{country.alpha3Code}</p>
+            <p> Population : {country.population}</p>
+            <p>Area :  {country.area}sSqKm</p>
         </div>
     );
 };
