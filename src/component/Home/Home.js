@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             {
-                countries.map(country => <Country country = {country}></Country>)
+                countries.map(country => <Country country = {country}>ok</Country>)
             }
         </div>
     );
