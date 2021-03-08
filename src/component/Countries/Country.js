@@ -1,11 +1,6 @@
 import React from 'react';
 import '../Countries/Country.css';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+import {Link  } from "react-router-dom";
 
 const Country = (props) => {
     const {name,capital,flag,alpha3Code} = props.country
